@@ -1,0 +1,8 @@
+From: Billing Department <billing@secure-invoice-example.com>
+To: Accounts Payable <ap@example-corp.local>
+Subject: Urgent: Updated Invoice Requires Review
+Date: Wed, 08 Jul 2026 09:42:16 -0400
+Authentication-Results: spf=fail smtp.mailfrom=secure-invoice-example.com; dkim=none; dmarc=fail
+Received: from mail.secure-invoice-example.com (198.51.100.77)
+URL Observed: hxxps://secure-invoice-example[.]com/review/login
+Attachment: Invoice_July_2026.html

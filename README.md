@@ -1,21 +1,22 @@
 # Security Operations Labs
 
-This repository documents hands-on security operations labs focused on
-log analysis, alert investigation, and incident response.
+Hands-on SOC labs using synthetic telemetry to demonstrate SIEM investigation, log analysis, detection logic, incident timelines, and response decisions.
 
-The labs simulate real SOC workflows using SIEM tools and security telemetry.
+## Labs
 
-## Focus Areas
-- SIEM alert investigation
-- Log analysis (authentication, system, network)
-- Incident classification and severity assessment
-- Escalation and containment decisions
+| Lab | Topic | Skills |
+|---|---|---|
+| Lab 01 | Windows failed logins | Event ID 4625/4624 analysis, brute-force triage |
+| Lab 02 | Phishing investigation | Email header review, URL/domain triage |
+| Lab 03 | Suspicious PowerShell | Sysmon process analysis, command-line review |
+| Lab 04 | Possible data exfiltration | Proxy/NetFlow review, severity assessment |
 
-## Tools & Concepts
-- SIEM platforms (e.g., Microsoft Sentinel)
-- Basic detection queries
-- Incident timelines
-- SOC documentation practices
+## Tools Represented
+- Microsoft Sentinel style KQL
+- Sigma detection rules
+- Windows Security Logs
+- Sysmon
+- Proxy / DNS / NetFlow logs
+- MITRE ATT&CK
 
-## Goal
-To build practical SOC experience and demonstrate operational readiness.
+> All lab data is fictional and safe for public GitHub use.

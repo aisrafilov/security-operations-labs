@@ -1,0 +1,4 @@
+Time,User,Host,Destination,BytesOut,Action
+2026-07-08T18:02:11Z,l.wong,WIN-FIN-007,cloud-sync-example.net,1849231234,allowed
+2026-07-08T18:16:42Z,l.wong,WIN-FIN-007,cloud-sync-example.net,2099123331,allowed
+2026-07-08T18:31:09Z,l.wong,WIN-FIN-007,cloud-sync-example.net,2288231230,allowed

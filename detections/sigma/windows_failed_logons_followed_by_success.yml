@@ -1,0 +1,25 @@
+title: Multiple Failed Logons Followed By Success
+id: 4c7a9f7d-0b3d-4f5a-9c8f-soclab0001
+status: experimental
+description: Detects potential brute-force activity where many failed logons are followed by a successful logon.
+logsource:
+  product: windows
+  service: security
+detection:
+  failed:
+    EventID: 4625
+  success:
+    EventID: 4624
+  condition: failed or success
+fields:
+  - Account
+  - IpAddress
+  - Computer
+falsepositives:
+  - User password reset activity
+  - Misconfigured service account
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1110
+  - attack.defense_evasion

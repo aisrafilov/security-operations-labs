@@ -1,0 +1,2 @@
+UtcTime,EventID,Image,ParentImage,CommandLine,User,Computer
+2026-07-08T15:12:33Z,1,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,"powershell.exe -NoP -W Hidden -EncodedCommand SQBFAFgA",EXAMPLE\r.patel,WIN-WKS-031
